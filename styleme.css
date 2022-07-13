@@ -1,3 +1,5 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Big+Shoulders+Display:wght@200&family=Lexend+Deca:wght@200&display=swap');
 * {
   margin: 0;
   padding: 0;
@@ -5,8 +7,11 @@
 }
 html {
   font-size: 10px;
-  font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
+  font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif, "Big Shoulder Display","Lexend Deca";
   scroll-behavior: smooth;
+  background-color:  rgb(0, 3, 3);
+  color: whitesmoke ;
+  margin: 0 auto;
 }
 a {
   text-decoration: none;
@@ -57,7 +62,7 @@ img {
 #header .nav-list ul{
   list-style: none;
   position: absolute;
-  background-color: rgb(31,30,30);
+  background-color:  rgb(0, 3, 3);
   width: 100vw;
   height: 100vh;
   top: 0;
@@ -193,6 +198,7 @@ img {
   color: transparent;
   animation: text_reveal 0.5s ease forwards;
   animation-delay: 1s;
+  color: whitesmoke;
 }
 #hero h1 :nth-child(1) {
   animation-delay: 1s;
@@ -258,21 +264,27 @@ img {
   text-transform: uppercase;
   letter-spacing: 0.2rem;
   text-align: center;
+  color: whitesmoke;
 }
 #services .section-title span {
   color: crimson;
 }
+#services .service-top{
+  max-width: 500px;
+  margin: 0 auto;
+}
 #services .service-top p {
   color: black;
   font-size: 1.3rem;
-  margin-top: 6px;
+  margin: 20px;
   line-height: 1.9rem;
   font-weight: 300;
   letter-spacing: 0.05rem;
   text-align: left;
   width: 500px;
   max-width: 0 auto;
-  padding: 30px;
+  padding: 50px;
+  color: whitesmoke;
 }
 #services .service-bottom {
   display: flex;
@@ -280,6 +292,10 @@ img {
   justify-content: center;
   flex-wrap: wrap;
   margin-top: 70px;
+}
+#services .service-top{
+  max-width: 500px;
+  margin: 0 auto;
 }
 #services .service-item {
   flex-basis: 80%;
@@ -345,6 +361,7 @@ img {
   text-transform: uppercase;
   letter-spacing: 0.2rem;
   text-align: center;
+  color: whitesmoke;
 }
 #projects .section-title span {
   color: crimson;
@@ -354,6 +371,7 @@ img {
   max-width: 1200px;
   margin: 0 auto;
   padding: 100px 0;
+  
 }
 #projects .project-header h1 {
   margin: 50px;
@@ -459,6 +477,7 @@ img {
   text-transform: uppercase;
   letter-spacing: 0.2rem;
   text-align: center;
+  color: whitesmoke;
 }
 #about .col-right .about-title span {
   color: crimson;
@@ -472,7 +491,7 @@ img {
   text-transform: capitalize;
   align-self: center;
   justify-self: center;
-  color: rgb(92, 24, 24);
+  color: whitesmoke;
 }
 #about .col-right p {
   color: rgb(2, 2, 2);
@@ -480,11 +499,12 @@ img {
   font-weight: 200;
   font-family: sans-serif;
   margin: 10px auto;
+  color: whitesmoke;
 }
 #about .cta {
   display: inline-block;
   padding: 10px 20px;
-  color: black;
+  color: whitesmoke;
   background-color: transparent;
   border: 2px solid crimson;
   border-radius: 10px 20px;
@@ -529,6 +549,7 @@ img {
   text-transform: uppercase;
   letter-spacing: 0.2rem;
   text-align: center;
+  color: whitesmoke;
 }
 #contact .section-title span {
   color: crimson;
@@ -542,13 +563,11 @@ img {
 #contact .contact-items {
   width: 100%;
   flex-direction: row;
-  justify-content: space-around;
+  justify-content: space-evenly;
   margin: 0 ;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  flex-wrap: wrap;
-  margin-top: 5px;
+  padding: 20px;
+  color: whitesmoke;
+
 }
 #contact .contact-item {
   display: flex;
@@ -561,6 +580,7 @@ img {
   align-items: center;
   box-shadow: 0px 0px 18px 0 #0000002c;
   flex-direction: column;
+  color: whitesmoke;
 }
 #contact .contact-item:hover {
   box-shadow: 4px 0px 4px 0 #0000002c;
@@ -661,8 +681,30 @@ img {
 }
 /*End keyframes*/
 
+/*Media queries for Smaller screen*/
+@media screen and (min-width:320px) {
+
+  #services .services
+
+  #services .service-top{
+    margin: -50px;
+    padding: -50px;
+    flex-basis: 35%;
+    margin: 4%;
+  }
+
+  #services .service-top p{
+    margin: -50px;
+    padding: -90px;
+    text-align: center;
+    justify-content: center;
+  }
+  
+}
+/*End media queries for Smaller screen*/
+
 /*Media Queries for Tablet*/
-@media screen and (min-width:760px) {
+@media screen and  (min-width:760px) {
     /*cta*/
    #hero .cta{
         font-size: 2.5rem;
@@ -763,6 +805,7 @@ img {
     /*contact*/
     #contact .contact{
         flex-direction: column;
+        display: grid;
         padding: 100px 0;
         align-items: center;
         justify-content: center;
@@ -772,6 +815,7 @@ img {
     #contact  .contact-item{
       margin: 20px;
       flex-direction: row;
+    
     }
     #contact .contact-item .icon{
       height: 100px;
@@ -834,19 +878,10 @@ img {
     flex-basis: 22%;
     margin:1.5%
   }
-  #contact .contact{
-    width: 100%;
-    display: flex;
-    flex-direction: row;
-    justify-content: center;
-    margin: 0;
-    flex-basis: 22%;
-    margin:1.5%
-  }
   #contact .contact-items{
-    flex-basis: 22%;
-    margin:1.5%;
-    width: 100%;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-gap: 10px;
   }
   
   
