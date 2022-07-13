@@ -423,7 +423,7 @@ img {
   text-transform: uppercase;
 }
 #projects .project-info p {
-  color: rgb(202, 194, 116);
+  color: #fff;
   font-size: 1.2rem;
   font-weight: 200;
   font-family: sans-serif;
@@ -748,8 +748,7 @@ img {
     #projects .project-item{
         flex-direction: row;
         margin: 5px;
-        padding: 5px;
-        border: 10px solid ;
+        padding: 25px;
         border-radius: 10px;
     }
     #projects .project-item:nth-child(even){
@@ -789,6 +788,10 @@ img {
     #about .col-right{
         text-align: left;
         padding: 10px;
+        margin-left: 15px;
+    }
+    #about .col-right .about-title{
+        font-size: 4.5rem;
     }
     #about .col-right h1{
         text-align: left;
