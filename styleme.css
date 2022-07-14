@@ -494,11 +494,12 @@ img {
 }
 #about .col-right p {
   color: rgb(2, 2, 2);
-  font-size: 1.2rem;
+  font-size: 1.5rem;
   font-weight: 200;
-  font-family: sans-serif;
+  font-family: sans-serif 'lexa';
   margin: 10px auto;
   color: whitesmoke;
+  letter-spacing: .05rem;
 }
 #about .cta {
   display: inline-block;
@@ -612,6 +613,7 @@ img {
   flex-direction: column;
   padding-top: 50px;
   padding-bottom: 10px;
+  margin: 0 20px;
 }
 #footer h2 {
   color: whitesmoke;
@@ -624,11 +626,12 @@ img {
 #footer .social-icon {
   display: flex;
   margin-bottom: 30px;
+  margin: 0 15px;
 }
 #footer .social-item {
   height: 50px;
   width: 50px;
-  margin: 0 5px;
+  margin: 0 15px;
 }
 #footer .social-item img {
   filter: grayscale(1);
