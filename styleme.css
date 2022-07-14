@@ -4,6 +4,7 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
+  
 }
 html {
   font-size: 10px;
@@ -185,7 +186,7 @@ img {
   z-index: -1;
 }
 #hero .hero {
-  max-width: 1200px;
+  /* max-width: 1200px; */
   margin: 0 auto;
   padding: 0 50px;
   justify-content: flex-start;
@@ -252,7 +253,7 @@ img {
 #services .services {
   flex-direction: column;
   text-align: center;
-  max-width: 1500px;
+  /* max-width: 500px; */
   margin: 0 auto;
   padding: 100px 0;
 }
@@ -281,7 +282,7 @@ img {
   font-weight: 300;
   letter-spacing: 0.05rem;
   text-align: left;
-  width: 500px;
+  /* width: 500px; */
   max-width: 0 auto;
   padding: 50px;
   color: whitesmoke;
@@ -292,10 +293,6 @@ img {
   justify-content: center;
   flex-wrap: wrap;
   margin-top: 70px;
-}
-#services .service-top{
-  max-width: 500px;
-  margin: 0 auto;
 }
 #services .service-item {
   flex-basis: 80%;
@@ -354,7 +351,7 @@ img {
 
 /* Project section*/
 #projects .section-title {
-  font-size: 4rem;
+  font-size: 3.5rem;
   font-weight: 300;
   color: black;
   margin-bottom: 10px;
@@ -387,7 +384,7 @@ img {
   align-items: center;
   justify-content: center;
   flex-direction: column;
-  width: 550px;
+  /* width: 550px; */
   margin: 20px auto;
   overflow: hidden;
   border-radius: 10px;
@@ -409,8 +406,10 @@ img {
   font-size: 4rem;
   font-weight: 500;
   text-transform: capitalize;
-  align-self: center;
-  justify-self: center;
+  align-self: left;
+  justify-self: left;
+  padding-bottom: 10px;
+  margin-bottom: 10px;
 }
 #projects .project-info h2 {
   font-size: 1.8rem;
@@ -470,7 +469,7 @@ img {
   width: 100%;
 }
 #about .col-right .about-title {
-  font-size: 3.5rem;
+  font-size: 3rem;
   font-weight: 300;
   color: black;
   margin-bottom: 10px;
@@ -542,7 +541,7 @@ img {
 
 /*Contact section*/
 #contact .section-title {
-  font-size: 4rem;
+  font-size: 3.5rem;
   font-weight: 300;
   color: black;
   margin-bottom: 10px;
@@ -682,7 +681,7 @@ img {
 /*End keyframes*/
 
 /*Media queries for Smaller screen*/
-@media screen and (min-width:320px) {
+/* @media screen and (min-width:320px) {
 
   #services .services
 
@@ -700,7 +699,7 @@ img {
     justify-content: center;
   }
   
-}
+} */
 /*End media queries for Smaller screen*/
 
 /*Media Queries for Tablet*/
@@ -855,6 +854,7 @@ img {
 
 /*Media Queries for Desktop*/
 @media screen and (min-width: 1200px){
+ 
   /*header*/
   #header .hamburger{
     display: none;
@@ -877,6 +877,9 @@ img {
     display: none;
   }
   /*End header*/
+  #services .service-top p{
+    width: 500px;
+  }
   #services .service-bottom .service-item{
     flex-basis: 22%;
     margin:1.5%
