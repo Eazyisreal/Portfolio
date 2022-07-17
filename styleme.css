@@ -1,14 +1,22 @@
-
-@import url('https://fonts.googleapis.com/css2?family=Big+Shoulders+Display:wght@200&family=Lexend+Deca:wght@200&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Manrope:wght@300;400;600&display=swap');
 * {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
-  
+  font-family: 'Manrope', sans-serif;
+  font-weight: 600;
+}
+p{
+  font-size: 32px;
+  font-weight: 400;
+}
+.section-title{
+  font-size: 64px;
+  font-family: 'Manrope', sans-serif;;
+  font-weight: 600;
 }
 html {
   font-size: 10px;
-  font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif, "Big Shoulder Display","Lexend Deca";
   scroll-behavior: smooth;
   background-color:  rgb(0, 3, 3);
   color: whitesmoke ;
@@ -19,7 +27,7 @@ a {
 }
 .container {
   min-height: 100vh;
-  width: 100%;
+  /* width: 100%; */
   display: flex;
   align-items: center;
   justify-content: center;
@@ -33,9 +41,10 @@ img {
   font-size: 3rem;
   text-transform: uppercase;
   color: #fff;
+  font-weight: 600;
 }
 .brand h1 span {
-  color: crimson;
+  color:   #1ced61;
 }
 /*Header Section*/
 #header{
@@ -45,6 +54,7 @@ img {
   top: 0;
   width: 100vw;
   height: auto;
+  
 }
 #header .header{
   min-height: 8vh;
@@ -75,6 +85,7 @@ img {
   z-index: 1;
   overflow-x: hidden;
   transition: .4s ease left;
+
 }
 #header .nav-list ul.active{
   left: 0%;
@@ -235,7 +246,7 @@ img {
   padding: 10px 30px;
   color: whitesmoke;
   background-color: transparent;
-  border: 2px solid crimson;
+  border: 2px solid  #1ced61;
   font-size: 2rem;
   text-transform: uppercase;
   letter-spacing: 0.1rem;
@@ -245,7 +256,7 @@ img {
 }
 #hero .cta:hover {
   color: whitesmoke;
-  background-color: crimson;
+  background-color: #13db56;
 }
 /*End Hero section*/
 
@@ -268,7 +279,7 @@ img {
   color: whitesmoke;
 }
 #services .section-title span {
-  color: crimson;
+  color:  #1ced61;
 }
 #services .service-top{
   max-width: 500px;
@@ -361,7 +372,7 @@ img {
   color: whitesmoke;
 }
 #projects .section-title span {
-  color: crimson;
+  color:   #1ced61;
 }
 #projects .projects {
   flex-direction: column;
@@ -418,7 +429,7 @@ img {
   text-transform: uppercase;
 }
 #projects .project-info h2 span {
-  color: crimson;
+  color:   #1ced61;
   text-transform: uppercase;
 }
 #projects .project-info p {
@@ -470,7 +481,7 @@ img {
 }
 #about .col-right .about-title {
   font-size: 3rem;
-  font-weight: 300;
+  font-weight: 400;
   color: black;
   margin-bottom: 10px;
   text-transform: uppercase;
@@ -479,12 +490,12 @@ img {
   color: whitesmoke;
 }
 #about .col-right .about-title span {
-  color: crimson;
+  color:  #1ced61;
 }
 #about .col-right h2 {
   font-size: 2.5rem;
   font-weight: 500;
-  font-family:  Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  font-family:  'manrope', sans-serif;
   letter-spacing: 0.2rem;
   margin-bottom: 10px;
   text-transform: capitalize;
@@ -495,8 +506,8 @@ img {
 #about .col-right p {
   color: rgb(2, 2, 2);
   font-size: 1.5rem;
-  font-weight: 200;
-  font-family: sans-serif 'lexa';
+  font-weight: 600;
+  font-family: 'manrope', sans-serif;
   margin: 10px auto;
   color: whitesmoke;
   letter-spacing: .05rem;
@@ -506,7 +517,7 @@ img {
   padding: 10px 20px;
   color: whitesmoke;
   background-color: transparent;
-  border: 2px solid crimson;
+  border: 2px solid   #1ced61;
   border-radius: 10px 20px;
   font-size: 2rem;
   text-transform: uppercase;
@@ -516,7 +527,7 @@ img {
   transition-property: background-color, color;
 }
 #about .cta:hover {
-  color: crimson;
+  color:   #1ced61;
   background-color: black;
   cursor: pointer;
 }
@@ -534,7 +545,7 @@ img {
   top: 19px;
   height: 98%;
   width: 98%;
-  border: 7px solid crimson;
+  border: 7px solid   #1ced61;
   border-radius: 10px 20px;
   z-index: -1;
 }
@@ -552,7 +563,7 @@ img {
   color: whitesmoke;
 }
 #contact .section-title span {
-  color: crimson;
+  color:   #1ced61;
 }
 
 #contact .contact {
@@ -677,8 +688,9 @@ img {
 }
 @keyframes text_reveal_name {
   100% {
-    color: crimson;
+    color:  #1ced61;
     font-weight: 500;
+    font-family: 'manrope', sans-serif;
   }
 }
 /*End keyframes*/
@@ -846,6 +858,7 @@ img {
       flex-wrap: wrap;
       padding: 20px 20px;
     }
+    
   
     /*End Contact*/
 
