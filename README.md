@@ -7,3 +7,7 @@ I created a simple portfolio website with HTML, CSS and JavaScript.
  It has links to different pages and also to my social media pages. It's work in progress. 
 
  I intend to update it in the future.
+ 
+ 
+ eazyisreal.netlify.app/
+ 
