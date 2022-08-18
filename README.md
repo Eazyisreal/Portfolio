@@ -9,5 +9,5 @@ I created a simple portfolio website with HTML, CSS and JavaScript.
  I intend to update it in the future.
  
  
- eazyisreal.netlify.app
+ https://eazyisreal.netlify.app/
  
