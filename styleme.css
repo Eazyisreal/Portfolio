@@ -117,7 +117,7 @@ img {
   letter-spacing: initial;
 }
 #header .nav-list ul li:hover a{
-  color: crimson;
+  color:  #1ced61;
 }
 #header .hamburger{
   height: 60px;
@@ -256,7 +256,7 @@ img {
 }
 #hero .cta:hover {
   color: whitesmoke;
-  background-color: #13db56;
+  background-color: #1ced61;
 }
 /*End Hero section*/
 
@@ -287,10 +287,10 @@ img {
 }
 #services .service-top p {
   color: black;
-  font-size: 1.3rem;
+  font-size: 1.8rem;
   margin: 20px;
   line-height: 1.9rem;
-  font-weight: 300;
+  font-weight: 400;
   letter-spacing: 0.05rem;
   text-align: left;
   /* width: 500px; */
@@ -618,13 +618,14 @@ img {
 /*Footer Section*/
 #footer {
   background-color: rgb(0, 3, 3);
+  color: #fff;
 }
 #footer .footer {
   min-height: 200px;
   flex-direction: column;
   padding-top: 50px;
   padding-bottom: 10px;
-  margin: 0 20px;
+  /* margin: 0 20px; */
 }
 #footer h2 {
   color: whitesmoke;
@@ -632,17 +633,17 @@ img {
   font-size: 1.8rem;
   letter-spacing: 0.1rem;
   margin-top: 10px;
-  margin-bottom: 10px;
+  margin-bottom: 30px;
 }
 #footer .social-icon {
   display: flex;
   margin-bottom: 30px;
-  margin: 0 15px;
+  /* margin: 0 15px; */
 }
 #footer .social-item {
   height: 50px;
   width: 50px;
-  margin: 0 15px;
+  margin: 0 5px;
 }
 #footer .social-item img {
   filter: grayscale(1);
@@ -654,8 +655,8 @@ img {
 #footer p {
   color: whitesmoke;
   font-size: 1.2rem;
-  text-align: center;
-  justify-content: center;
+  /* text-align: center; */
+  /* justify-content: center; */
 }
 /*End Footer Section*/
 
@@ -718,23 +719,26 @@ img {
 /*End media queries for Smaller screen*/
 
 /*Media Queries for Tablet*/
-@media screen and  (min-width:760px) {
+@media screen and  (min-width:768px) {
     /*cta*/
-   #hero .cta{
+    body{
+      overflow-x: hidden;
+    }
+   .cta{
         font-size: 2.5rem;
         padding: 20px 60px;
     }
-    #about .cta{
+    /* #about .cta{
         font-size: 20px;
         padding: 15px;
         border-radius: 7px solid crimson;
-    }
+    } */
     /*End cta*/
     /*titles*/
     #services h1.section-title{
         font-size: 6rem;
     }
-    #projects h1.section-title{
+    /* #projects h1.section-title{
         font-size: 5.5rem;
     }
     #about .col-right .about-title{
@@ -742,7 +746,7 @@ img {
     }
     #contact h1.section-title{
         font-size: 5.5rem;
-    }
+    } */
     /*End titles*/
 
     /*hero*/
@@ -753,17 +757,17 @@ img {
 
     /*services*/
     #services .service-bottom .service-item{
-        flex-basis: 35%;
-        margin: 4%;
+        flex-basis: 45%;
+        margin: 2.5%;
     }
     /*End services*/
 
     /*projects*/
-    #projects .project-item{
+    #projects .project-item {
         flex-direction: row;
-        margin: 5px;
+        /* margin: 5px;
         padding: 25px;
-        border-radius: 10px;
+        border-radius: 10px; */
     }
     #projects .project-item:nth-child(even){
         flex-direction: row-reverse;
@@ -781,6 +785,7 @@ img {
         margin: 0;
         width: 100%;
         border-radius: 0;
+        margin-bottom: 80px;
     }
     #projects .all-projects .project-info{
         height: 100%;
@@ -801,8 +806,8 @@ img {
     }
     #about .col-right{
         text-align: left;
-        padding: 10px;
-        margin-left: 15px;
+        padding: 30px;
+        /* margin-left: 15px; */
     }
     #about .col-right .about-title{
         font-size: 4.5rem;
@@ -815,7 +820,7 @@ img {
         top: 24px;
         height: 98%;
         width: 98%  ;
-        border: 10px solid crimson;
+        border: 10px solid  #1ced61;
     }
     /*End About*/
 
@@ -830,7 +835,8 @@ img {
     }
    
     #contact  .contact-item{
-      margin: 20px;
+      margin: 30%;
+      margin: 0;
       flex-direction: row;
     
     }
@@ -872,6 +878,9 @@ img {
 @media screen and (min-width: 1200px){
  
   /*header*/
+  body{
+    overflow-x: hidden;
+  }
   #header .hamburger{
     display: none;
   }
@@ -906,7 +915,7 @@ img {
     grid-gap: 10px;
   }
   #contact .contact-item{
-    margin: 35px;
+    margin: 55px;
   }
   
 }
