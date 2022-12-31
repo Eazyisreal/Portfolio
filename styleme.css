@@ -443,9 +443,9 @@ img {
   margin: 10px auto;
 }
 #projects .project-img {
-  flex-basis: 50%;
+  /* flex-basis: 50%; */
   height: 400px;
-  overflow: hidden;
+  /* overflow: hidden; */
   position: relative;
 }
 #projects .project-img::after {
