@@ -28,7 +28,7 @@ a {
   text-decoration: none;
 }
 .container {
-  min-height: 100vh;
+  /* min-height: 100vh; */
   width: 100%;
   display: flex;
   align-items: center;
@@ -198,10 +198,11 @@ img {
   z-index: -1;
 }
 #hero .hero {
-  /* max-width: 1200px; */
+  max-width: 1200px;
   margin: 0 auto;
   padding: 0 50px;
   justify-content: flex-start;
+  min-height: 100vh;
 }
 #hero h1 {
   display: block;
@@ -267,7 +268,7 @@ img {
   text-align: center;
   /* max-width: 500px; */
   margin: 0 auto;
-  padding: 100px 0;
+  /* padding: 100px 0; */
 }
 #services .section-title {
   font-size: 4rem;
@@ -304,7 +305,7 @@ img {
   align-items: center;
   justify-content: center;
   flex-wrap: wrap;
-  margin-top: 70px;
+  /* margin-top: 70px; */
 }
 #services .service-item {
   flex-basis: 80%;
@@ -314,13 +315,14 @@ img {
   flex-direction: column;
   padding: 30px;
   border-radius: 15px;
-  background-image: url(./img/nathan-da-silva-FO7kUmBYVi0-unsplash.jpg);
+  background: url(./img/nathan-da-silva-FO7kUmBYVi0-unsplash.jpg)  no-repeat center center/cover, rgba(2, 15, 9, 0.7) ;
   background-size: cover;
   margin: 10px 5%;
   position: relative;
   z-index: 1;
   overflow: hidden;
   transition: 0.4s ease transform;
+  background-blend-mode: overlay;
 }
 #services .service-item:hover {
   transform: scale(1.1);
@@ -363,7 +365,7 @@ img {
 
 /* Project section*/
 #projects .section-title {
-  font-size: 3.5rem;
+  font-size: 3.1rem;
   font-weight: 300;
   color: black;
   margin-bottom: 10px;
@@ -379,7 +381,7 @@ img {
   flex-direction: column;
   /* max-width: 1200px; */
   margin: 0 auto;
-  padding: 100px 0;
+  /* padding: 100px 0; */
   
 }
 #projects .project-header h1 {
@@ -415,7 +417,7 @@ img {
 
 }
 #projects .project-info h1 {
-  font-size: 4rem;
+  font-size: 3.6rem;
   font-weight: 500;
   text-transform: capitalize;
   align-self: left;
@@ -470,7 +472,7 @@ img {
   text-align: center;
   max-height: 1200px;
   margin: 0 auto;
-  padding: 100px;
+  padding: 4rem;
 }
 #about .col-left {
   /* width: 250px; */
@@ -545,7 +547,7 @@ img {
   left: -33px;
   top: 19px;
   height: 98%;
-  /* width: 98%; */
+  width: 98%;
   border: 7px solid   #1ced61;
   border-radius: 10px 20px;
   z-index: -1;
@@ -801,7 +803,7 @@ img {
         flex-direction: row;
     }
     #about .col-left{
-        /* width: 600px; */
+        width: 600px;
         height: 400px;
         padding-left: 60px;
     }
