@@ -635,9 +635,9 @@ img {
   color: whitesmoke;
   font-weight: 500;
   font-size: 1.8rem;
-  letter-spacing: 0.1rem;
+  /* letter-spacing: 0.1rem;
   margin-top: 10px;
-  margin-bottom: 30px;
+  margin-bottom: 30px; */
 }
 #footer .social-icon {
   display: flex;
@@ -879,6 +879,7 @@ img {
         justify-content: space-between;
         align-items: center;
         padding: 20px ;
+        font-size: 1.5rem;
     }
 
     /*End footer*/    
