@@ -142,7 +142,8 @@ img {
   width: 100%;
   border-radius: 50%;
   border: 30px solid whitesmoke;
-  animation: hamburger_pulse .3s ease infinite;
+  animation:  .3s ease infinite;
+  animation-name: hamburger_pulse ;
 }
 #header .hamburger .bar{
   height: 2px;
@@ -664,7 +665,7 @@ img {
 /*End Footer Section*/
 
 /*Keyframes*/
-@keyframes hamburger_pulse{
+@keyframes hamburger_pulse {
   0%{
     opacity: 0;
     transform: scale(1);
@@ -725,7 +726,7 @@ img {
 @media screen and  (min-width:768px) {
     /*cta*/
     body{
-      overflow-x: hidden;
+      /* overflow-x: hidden; */
     }
    .cta{
         font-size: 2.5rem;
@@ -873,6 +874,12 @@ img {
     /*End Contact*/
 
     /*footer*/
+    #footer .footer{
+        flex-direction: row;
+        justify-content: space-between;
+        align-items: center;
+        padding: 20px ;
+    }
 
     /*End footer*/    
 }
@@ -883,7 +890,7 @@ img {
  
   /*header*/
   body{
-    overflow-x: hidden;
+    /* overflow-x: hidden; */
   }
   #header .hamburger{
     display: none;
@@ -906,9 +913,6 @@ img {
     display: none;
   }
   /*End header*/
-  #services .service-top p{
-    /* width: 500px; */
-  }
   #services .service-bottom .service-item{
     flex-basis: 22%;
     margin:1.5%
