@@ -400,7 +400,7 @@ img {
   flex-direction: column;
   /* width: 550px; */
   margin: 20px auto;
-  overflow: hidden;
+  /* overflow: hidden; */
   border-radius: 10px;
   /* padding: 60px; */
 }
@@ -579,7 +579,7 @@ img {
   flex-direction: row;
   justify-content: space-evenly;
   margin: 0 ;
-  /* padding: 20px; */
+  padding: 1.2rem;
   color: whitesmoke;
 
 }
