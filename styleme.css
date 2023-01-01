@@ -624,10 +624,10 @@ img {
   color: #fff;
 }
 #footer .footer {
-  min-height: 200px;
+  /* min-height: 200px; */
   flex-direction: column;
-  padding-top: 50px;
-  padding-bottom: 10px;
+  /* padding-top: 50px; */
+  /* padding-bottom: 10px; */
   /* margin: 0 20px; */
 }
 #footer h2 {
