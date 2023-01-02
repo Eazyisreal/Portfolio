@@ -23,6 +23,7 @@
   transition-duration: 200ms;
   transition-timing-function: ease-out;
   animation: cursor .5s infinite alternate;
+  z-index: 100000;
 }
 @keyframes cursor {
   from{
