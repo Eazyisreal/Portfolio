@@ -1,5 +1,5 @@
-@import url('https://fonts.googleapis.com/css2?family=Manrope:wght@300;400;600&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Anybody:ital,wght@0,200;0,300;0,400;1,100;1,200&display=swap');
+/* @import url('https://fonts.googleapis.com/css2?family=Manrope:wght@300;400;600&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Anybody:ital,wght@0,200;0,300;0,400;1,100;1,200&display=swap'); */
 
 * {
   margin: 0;
@@ -571,7 +571,7 @@ img {
   text-align: center;
   max-height: 1200px;
   margin: 0 auto;
-  padding: 4rem;
+  padding: 6.5rem;
 }
 
 #about .col-left {
@@ -609,6 +609,7 @@ img {
   align-self: center;
   justify-self: center;
   color: whitesmoke;
+  padding-top: 5px;
 }
 
 #about .col-right p {
@@ -682,8 +683,8 @@ img {
 
 #contact .contact {
   flex-direction: column;
-  /* max-width: 1200px; */
   margin: 0 auto;
+  padding-top: 60px;
 }
 
 #contact .contact-items {
