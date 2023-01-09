@@ -336,9 +336,11 @@ img {
 #services .services {
   flex-direction: column;
   text-align: center;
-  /* max-width: 500px; */
   margin: 0 auto;
-  padding: 60px 0;
+  padding: 4rem 0;
+  display: flex;
+  flex-direction: column;
+  min-height: 100%;
 }
 
 #services .section-title {
