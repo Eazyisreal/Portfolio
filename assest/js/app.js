@@ -37,3 +37,11 @@ document.addEventListener('mousemove', e =>{
 document.addEventListener('scroll', e =>{
     cursor.setAttribute("style", "top: "+(e.pageY - 10)+"px; left: "+(e.pageX - 10)+"px;")
 })
+
+
+var typed = new Typed('.auto-type', {
+    strings: ["My Name is Eazyisreal", "I\'m a Fullstack developer", "I love to code"],
+    typeSpeed: 100,
+    backSpeed: 60,
+    loop: true
+  });
