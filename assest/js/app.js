@@ -40,8 +40,13 @@ document.addEventListener('scroll', e =>{
 
 
 var typed = new Typed('.auto-type', {
-    strings: ["My Name is Eazyisreal", "I\'m a Fullstack developer", "I love to code"],
+    strings: ["My Name is Eazyisreal", "I\'m a Software Engineer", "I\'m a social media manager", "I love to code", "Click portfolio to see more"],
     typeSpeed: 100,
     backSpeed: 60,
     loop: true
   });
+
+  const loader = document.querySelector('.preloader');
+  window.addEventListener('load', function time(){
+    loader.style.display = 'none';
+  })
