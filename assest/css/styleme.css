@@ -8,6 +8,10 @@
 
 }
 
+.logo{
+  width: 100px;
+  height: 100px;
+}
 .cursor {
   position: absolute;
   width: 33px;
@@ -96,6 +100,7 @@ img {
   top: 0;
   width: 100vw;
   height: auto;
+  background-color: transparent;
 
 }
 
