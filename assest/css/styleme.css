@@ -453,7 +453,7 @@ img {
 
 /* Project section*/
 #projects .section-title {
-  font-size: 3.1rem;
+  font-size: 3rem;
   font-weight: 300;
   color: black;
   margin-bottom: 10px;
@@ -470,7 +470,7 @@ img {
 #projects .projects {
   flex-direction: column;
   margin: 0 auto;
-  padding-top: 60px;
+  padding-top: 7rem;
 }
 
 #projects .project-header h1 {
@@ -482,7 +482,6 @@ img {
   align-items: center;
   justify-content: center;
   flex-direction: column;
-  padding-top: 15px;
 }
 
 #projects .project-item {
@@ -496,7 +495,7 @@ img {
 }
 
 #projects .project-info {
-  padding: 30px;
+  padding: 0 1.5rem;
   flex-basis: 50%;
   background-color: rgb(0, 3, 3);
   height: 100%;
@@ -513,8 +512,6 @@ img {
   text-transform: capitalize;
   align-self: left;
   justify-self: left;
-  padding-bottom: 10px;
-  margin-bottom: 10px;
 }
 
 #projects .project-info h2 {
@@ -1061,8 +1058,20 @@ img {
     font-size: 1.25rem;
   }
 
-  #services .section-title{
+  #services .section-title {
     font-size: 3rem;
+  }
+
+  #projects .section-title {
+    font-size: 2rem;
+  }
+
+  #projects .project-info h1 {
+    font-size: 2rem;
+  }
+
+  #projects .project-info h2 {
+    font-size: 1.5rem;
   }
 
 }
