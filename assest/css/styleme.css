@@ -2,10 +2,9 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
-  font-family: 'Anybody', cursive;
+  font-family: "Anybody", cursive;
   /* border: 2px solid red; */
   cursor: none;
-
 }
 
 .preloader {
@@ -31,7 +30,7 @@ iframe {
 }
 
 #pattern0 {
-  animation: animate -0.5s linear .8s infinite alternate;
+  animation: animate -0.5s linear 0.8s infinite alternate;
 }
 
 @keyframes animate {
@@ -44,7 +43,6 @@ iframe {
     opacity: 1;
     fill: rgb(154, 53, 53);
   }
-
 }
 
 .logo {
@@ -63,14 +61,13 @@ iframe {
   pointer-events: none;
   transition-duration: 200ms;
   transition-timing-function: ease-out;
-  animation: cursor .5s infinite alternate;
+  animation: cursor 0.5s infinite alternate;
   z-index: 100000;
   mix-blend-mode: difference;
 }
 
 .cursor:hover {
   transform: scale(6);
-
 }
 
 body {
@@ -81,9 +78,7 @@ body {
   from {
     transform: scale(1);
   }
-
 }
-
 
 p {
   font-size: 2rem;
@@ -92,7 +87,7 @@ p {
 
 .section-title {
   font-size: 3rem;
-  font-family: 'Manrope', sans-serif;
+  font-family: "Manrope", sans-serif;
   font-weight: 600;
 }
 
@@ -117,7 +112,7 @@ a {
 
 img {
   height: 100%;
-  width: 100%;
+  /* width: 100%; */
   object-fit: cover;
 }
 
@@ -141,13 +136,12 @@ img {
   width: 100vw;
   height: auto;
   background-color: transparent;
-
 }
 
 #header .header {
   min-height: 8vh;
   background-color: rgb(0, 3, 3);
-  transition: .3s ease background-color;
+  transition: 0.3s ease background-color;
 }
 
 #header .nav-bar {
@@ -174,7 +168,7 @@ img {
   align-items: center;
   z-index: 1;
   overflow-x: hidden;
-  transition: .4s ease left;
+  transition: 0.4s ease left;
 }
 
 #header .nav-list ul.active {
@@ -184,7 +178,7 @@ img {
 #header .nav-list ul a {
   font-size: 2.5rem;
   font-weight: 500;
-  letter-spacing: .2rem;
+  letter-spacing: 0.2rem;
   text-decoration: none;
   color: whitesmoke;
   text-transform: uppercase;
@@ -202,7 +196,7 @@ img {
   font-size: 10.5rem;
   letter-spacing: 50px;
   z-index: -1;
-  transition: .3s ease letter-spacing;
+  transition: 0.3s ease letter-spacing;
 }
 
 #header .nav-list ul li:hover a::after {
@@ -226,18 +220,18 @@ img {
   align-items: center;
   z-index: 100;
   cursor: pointer;
-  transform: scale(.7);
+  transform: scale(0.7);
   margin-right: 1.1rem;
 }
 
 #header .hamburger:after {
   position: absolute;
-  content: '';
+  content: "";
   height: 100%;
   width: 100%;
   border-radius: 50%;
   border: 30px solid whitesmoke;
-  animation: .3s ease infinite;
+  animation: 0.3s ease infinite;
   animation-name: hamburger_pulse;
 }
 
@@ -251,13 +245,13 @@ img {
 
 #header .hamburger .bar::after,
 #header .hamburger .bar::before {
-  content: '';
+  content: "";
   position: absolute;
   height: 100%;
   width: 100%;
   left: 0;
   background-color: whitesmoke;
-  transition: .3s ease;
+  transition: 0.3s ease;
   transition-property: top, bottom;
 }
 
@@ -331,7 +325,7 @@ img {
   font-size: 2rem;
   text-transform: uppercase;
   letter-spacing: 0.1rem;
-  margin-top: .85rem;
+  margin-top: 0.85rem;
 }
 
 #hero .cta:hover {
@@ -399,7 +393,8 @@ img {
   flex-direction: column;
   padding: 30px;
   border-radius: 15px;
-  background: url(../img/webdev.jpg) no-repeat center center/cover, rgba(2, 3, 2, 0.892);
+  background: url(../img/webdev.jpg) no-repeat center center/cover,
+    rgba(2, 3, 2, 0.892);
   background-size: cover;
   margin: 10px 5%;
   position: relative;
@@ -535,7 +530,6 @@ img {
 }
 
 #projects .project-img {
-  height: 400px;
   position: relative;
   object-fit: cover;
 }
@@ -552,6 +546,10 @@ img {
 
 #projects .project-img img {
   transition: 0.3s ease transform;
+}
+
+.pimg {
+  width: 100%;
 }
 
 #projects .project-item:hover .project-img img {
@@ -574,16 +572,12 @@ img {
   height: 360px;
 }
 
-
-
 #about .col-right .about-title {
   font-size: 3rem;
   font-weight: 400;
   color: black;
   margin-bottom: 10px;
   text-transform: uppercase;
-  letter-spacing: 0.2rem;
-  text-align: center;
   color: whitesmoke;
 }
 
@@ -594,7 +588,7 @@ img {
 #about .col-right h2 {
   font-size: 2.5rem;
   font-weight: 500;
-  font-family: 'manrope', sans-serif;
+  font-family: "manrope", sans-serif;
   letter-spacing: 0.2rem;
   margin-bottom: 10px;
   text-transform: capitalize;
@@ -606,12 +600,10 @@ img {
 
 #about .col-right p {
   color: rgb(2, 2, 2);
-  font-size: 1.5rem;
-  font-weight: 600;
-  font-family: 'manrope', sans-serif;
-  margin: 10px auto;
+  font-size: 1.4rem;
+  font-family: "manrope", sans-serif;
   color: whitesmoke;
-  letter-spacing: .05rem;
+  text-align: left;
 }
 
 #about .cta {
@@ -685,7 +677,6 @@ img {
   margin: 0;
   padding: 1.2rem;
   color: whitesmoke;
-
 }
 
 #contact .contact-item {
@@ -738,7 +729,6 @@ img {
 #footer .footer {
   flex-direction: column;
   margin-bottom: 15px;
-
 }
 
 #footer h2 {
@@ -785,7 +775,6 @@ img {
     opacity: 0;
     transform: scale(1.5);
   }
-
 }
 
 @keyframes text_reveal_box {
@@ -810,15 +799,14 @@ img {
   100% {
     color: #1ced61;
     font-weight: 500;
-    font-family: 'manrope', sans-serif;
+    font-family: "manrope", sans-serif;
   }
 }
 
 /*End keyframes*/
 
-
 /*Media Queries for Tablet*/
-@media screen and (min-width:768px) {
+@media screen and (min-width: 768px) {
   .cta {
     font-size: 2.5rem;
     padding: 20px 60px;
@@ -857,7 +845,7 @@ img {
   #projects .project-info h1 {
     margin: 10px;
     padding: 10px;
-    letter-spacing: .1rem;
+    letter-spacing: 0.1rem;
     text-transform: uppercase;
     justify-content: left;
     align-items: left;
@@ -927,7 +915,6 @@ img {
     margin: 0;
     flex-direction: row;
     width: 100%;
-
   }
 
   #contact .contact-item .icon {
@@ -942,7 +929,6 @@ img {
     width: 100%;
     text-align: left;
     padding-left: 20px;
-
   }
 
   #contact .contact-items {
@@ -955,7 +941,6 @@ img {
     flex-wrap: wrap;
     padding: 20px 20px;
   }
-
 
   /*End Contact*/
 
@@ -993,7 +978,6 @@ img {
 
   #header .nav-list ul li a {
     font-size: 1.6rem;
-
   }
 
   #header .nav-list ul a:after {
@@ -1003,7 +987,7 @@ img {
   /*End header*/
   #services .service-bottom .service-item {
     flex-basis: 22%;
-    margin: 1.5%
+    margin: 1.5%;
   }
 
   #contact .contact-items {
@@ -1015,12 +999,11 @@ img {
   #contact .contact-item {
     margin: 2.3rem;
   }
-
 }
 
 /*End Media Queries for Desktop*/
 
-@media screen and (min-width:1024px) {
+@media screen and (min-width: 1024px) {
 
   .container,
   body {
@@ -1033,8 +1016,6 @@ img {
     grid-template-columns: repeat(2, 1fr);
     grid-gap: 10px;
   }
-
-
 }
 
 @media screen and (max-width: 475px) {
@@ -1043,7 +1024,6 @@ img {
     padding: 10px;
     margin: 10px;
   }
-
 
   #services .service-item h2 {
     font-size: 1.4rem;
@@ -1074,4 +1054,16 @@ img {
     font-size: 1.5rem;
   }
 
+  #about .col-right .about-title {
+    font-size: 2rem;
+  }
+
+  #about .col-right p {
+    font-size: 1.2rem;
+  }
+
+  #about .cta {
+    font-size:  1.5rem;
+   
+  }
 }
