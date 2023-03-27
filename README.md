@@ -8,6 +8,7 @@ I created a simple portfolio website with HTML, CSS and JavaScript.
 
  I intend to update it in the future.
  
+ I added a library for typewriter. 
  
  https://eazyisreal.netlify.app/
  
