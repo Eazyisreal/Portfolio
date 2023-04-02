@@ -48,4 +48,4 @@ I welcome contributions to my portfolio website. If you notice any bugs or have 
 This project is licensed under the MIT License.
 
 ## Contact
-If you have any questions or would like to get in touch with me, please visit the Contact page on my website or email me at [eazyisreal@gmail.com](mailto:eazyisreal@gmail.com). Thank you for visiting my portfolio website!
+If you have any questions or would like to get in touch with me, please visit the Contact page on my website or email me at [my mail](mailto:eazyisreal192@gmail.com). Thank you for visiting my portfolio website!
