@@ -87,7 +87,7 @@ p {
 
 .section-title {
   font-size: 3rem;
-  font-family: "Manrope", sans-serif;
+  /* font-family: "Manrope", sans-serif; */
   font-weight: 600;
 }
 
@@ -277,7 +277,7 @@ img {
   background-image: url(../img/bg.jpg);
   background-size: cover;
   background-repeat: no-repeat;
-  background-position: left center;
+  background-position: top center;
   opacity: 1.5;
   background-blend-mode: darken
 }
@@ -521,7 +521,7 @@ img {
   color: #fff;
   font-size: 1.2rem;
   font-weight: 200;
-  font-family: sans-serif;
+  /* font-family: sans-serif; */
   margin: 10px auto;
 }
 
@@ -584,7 +584,7 @@ img {
 #about .col-right h2 {
   font-size: 2.5rem;
   font-weight: 500;
-  font-family: "manrope", sans-serif;
+  /* font-family: "manrope", sans-serif; */
   letter-spacing: 0.2rem;
   margin-bottom: 10px;
   text-transform: capitalize;
@@ -597,7 +597,7 @@ img {
 #about .col-right p {
   color: rgb(2, 2, 2);
   font-size: 1.4rem;
-  font-family: "manrope", sans-serif;
+  /* font-family: "manrope", sans-serif; */
   color: whitesmoke;
   text-align: left;
 }
@@ -725,6 +725,7 @@ img {
 #footer .footer {
   flex-direction: column;
   margin-bottom: 15px;
+  gap: 1.5rem;
 }
 
 #footer h2 {
@@ -795,7 +796,7 @@ img {
   100% {
     color: #1ced61;
     font-weight: 500;
-    font-family: "manrope", sans-serif;
+    /* font-family: "manrope", sans-serif; */
   }
 }
 
@@ -879,10 +880,10 @@ img {
     text-align: left;
     padding: 30px;
   }
-
+/* 
   #about .col-right .about-title {
     font-size: 4.5rem;
-  }
+  } */
 
   #about .col-right h1 {
     text-align: left;
@@ -1014,6 +1015,13 @@ img {
   }
 }
 
+@media screen and (max-width: 768px) {
+
+  .cursor {
+    display: none;
+  }
+}
+
 @media screen and (max-width: 475px) {
   #services .service-top p {
     font-size: 1.3rem;
@@ -1059,11 +1067,19 @@ img {
   }
 
   #about .cta {
-    font-size:  1.5rem;
-   
+    font-size: 1.5rem;
+
   }
 
   #hero {
     background-position: left;
+  }
+
+  #about .about{
+    padding: 2.5rem;
+  }
+
+  #about{
+    padding-top: 4.5rem;
   }
 }

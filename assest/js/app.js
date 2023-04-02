@@ -30,13 +30,12 @@ menu_item.forEach((item) => {
     });
 })
 
-document.addEventListener('mousemove', e =>{
-    cursor.setAttribute("style", "top: "+(e.pageY - 10)+"px; left: "+(e.pageX - 10)+"px;")
-})
-
-document.addEventListener('scroll', e =>{
-    cursor.setAttribute("style", "top: "+(e.pageY - 10)+"px; left: "+(e.pageX - 10)+"px;")
-})
+function updateCursor(e) {
+    cursor.setAttribute("style", "top: "+(e.pageY + 10)+"px; left: "+(e.pageX - 20)+"px;")
+  }
+  
+  document.addEventListener('mousemove', updateCursor)
+  document.addEventListener('scroll', updateCursor)
 
 
 var typed = new Typed('.auto-type', {
