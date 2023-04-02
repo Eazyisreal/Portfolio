@@ -646,7 +646,7 @@ img {
 
 /*Contact section*/
 #contact .section-title {
-  font-size: 3.5rem;
+  font-size: 3rem;
   font-weight: 300;
   color: black;
   margin-bottom: 10px;
@@ -1046,7 +1046,7 @@ img {
     font-size: 3rem;
   }
 
-  #projects .section-title {
+  #projects .section-title, #contact .section-title {
     font-size: 2rem;
   }
 
