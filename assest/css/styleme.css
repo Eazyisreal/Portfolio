@@ -1084,4 +1084,8 @@ img {
   #about{
     padding-top: 4.5rem;
   }
+
+.brand h1{
+  font-size: 1.5rem;
+}
 }
