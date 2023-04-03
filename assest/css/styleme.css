@@ -452,6 +452,7 @@ img {
   letter-spacing: 0.2rem;
   text-align: center;
   color: whitesmoke;
+  padding-top: 5rem;
 }
 
 #projects .section-title span {
@@ -575,6 +576,7 @@ img {
   margin-bottom: 10px;
   text-transform: uppercase;
   color: whitesmoke;
+  padding-top: 5rem;
 }
 
 #about .col-right .about-title span {
@@ -653,7 +655,7 @@ img {
   text-transform: uppercase;
   letter-spacing: 0.2rem;
   text-align: center;
-  color: whitesmoke;
+  color: whitesmoke;z
 }
 
 #contact .section-title span {
@@ -1043,7 +1045,7 @@ img {
   }
 
   #services .section-title {
-    font-size: 3rem;
+    font-size: 2rem;
   }
 
   #projects .section-title, #contact .section-title {
