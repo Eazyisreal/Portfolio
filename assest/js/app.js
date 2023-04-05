@@ -31,7 +31,7 @@ menu_item.forEach((item) => {
 })
 
 function updateCursor(e) {
-    cursor.setAttribute("style", "top: "+(e.pageY + 10)+"px; left: "+(e.pageX - 20)+"px;")
+    cursor.setAttribute("style", "top: "+(e.pageY + 10)+"px; left: "+(e.pageX + 0)+"px;")
   }
   
   document.addEventListener('mousemove', updateCursor)
