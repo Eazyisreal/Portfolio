@@ -655,7 +655,7 @@ img {
   text-transform: uppercase;
   letter-spacing: 0.2rem;
   text-align: center;
-  color: whitesmoke;z
+  color: whitesmoke;
 }
 
 #contact .section-title span {
@@ -1091,4 +1091,14 @@ img {
 .brand h1{
   font-size: 1.5rem;
 }
+}
+
+*::-webkit-scrollbar {
+  width: 0.25rem;
+  background-color: #1414141A;
+}
+*::-webkit-scrollbar-thumb {
+  background-color: #1ced65;
+  border-radius: 1.2rem;
+  width: .25rem;
 }
